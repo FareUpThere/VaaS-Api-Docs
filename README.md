@@ -63,3 +63,26 @@ Returns the travel advisory and border information for a given country.
     "Country_ISO_Code": "MX"
 }
 ```
+---
+| v1/visa-exemption |
+| --- |
+
+Returns the visa details for a traveller for specific country
+
+**Requirement body parameters:**
+| Body Parameter | Description |
+| --- | ----------- |
+|nationality| 2 letter country code i.e. US, MX |  
+|destination| 2 letter country code i.e. US, MX | 
+
+**Example response:**
+```
+{
+    "passport_requirement_for_entry": "Your passport must be valid at least six months from the date of arrival.",
+    "Visa_Required": true,
+    "Visa_On_Arrival": false,
+    "Visa_Online": false,
+    "Travel_Authorization": "none",
+    "Exemptions": "none"
+}
+```
