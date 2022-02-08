@@ -86,3 +86,23 @@ Returns the visa details for a traveller for specific country
     "Exemptions": "none"
 }
 ```
+---
+| v1/requests|
+| --- |
+
+Returns the list of requests against the VaaS API. 
+
+**Example response:**
+```
+  {
+    "_id": "61e6e284423a3c0016cc195b",
+    "ipAddress": "::ffff:10.1.59.123",
+    "status": "success",
+    "endpoint": "vaccinations",
+    "apiKey": "dmnlskwenjdkjnendjnk3",
+    "environment": "production",
+    "duration": "0.438 seconds",
+    "date": "2022-01-18T15:53:40.642Z",
+    "__v": 0
+  }
+```
