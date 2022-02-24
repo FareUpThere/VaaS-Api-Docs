@@ -117,7 +117,7 @@ Returns the visa requirements
 | --- | ----------- |
 |location| 2 letter country code i.e. US, MX |  
 |destination| 2 letter country code i.e. US, MX | 
-|type| tourist / business / transit | 
+|type| tourist / business | 
 
 **Example response:**
 ```
