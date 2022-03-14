@@ -87,7 +87,7 @@ Returns the visa details for a traveller for specific country
 }
 ```
 ---
-| v1/requirements|
+| v1/requests|
 | --- |
 
 Returns the list of requests against the VaaS API. 
